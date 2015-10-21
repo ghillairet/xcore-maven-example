@@ -10,3 +10,6 @@ To run it, you need Maven and use the command:
 ```
 maven clean compile
 ```
+
+The generated Java code will be put in the src/main/java-gen folder.
+The clean command deletes the src/main/java-gen folder, so it should be used before re-generating code.
