@@ -7,4 +7,8 @@ package sample.model
 
 class User {
     String name
+
+    op String sayHello(User user) {
+        "Hello " + user.name
+    }
 }

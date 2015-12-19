@@ -8,7 +8,7 @@ This project shows how to use Maven (without Tycho) with the xtext-maven-plugin 
 To run it, you need Maven and use the command:
 
 ```
-maven clean compile
+mvn clean compile
 ```
 
 The generated Java code will be put in the src/main/java-gen folder.
