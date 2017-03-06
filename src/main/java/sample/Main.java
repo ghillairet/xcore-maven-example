@@ -6,10 +6,13 @@ import sample.model.User;
 public class Main {
 
 	public static void main(String... args) {
-		User user = ModelFactory.eINSTANCE.createUser();
-		user.setName("Paul Doe");
+		User paul = ModelFactory.eINSTANCE.createUser();
+		paul.setName("Paul Doe");
 
-		System.out.println(user.getName());
+		User jack = ModelFactory.eINSTANCE.createUser();
+		jack.setName("Jack Black");
+
+		System.out.println(paul.sayHello(jack));
 	}
 
 }

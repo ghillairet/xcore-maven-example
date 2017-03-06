@@ -1,7 +1,7 @@
 @GenModel(
     bundleManifest="false",
     modelDirectory="xcore-maven-example/src/main/java-gen",
-    complianceLevel="7.0"
+    complianceLevel="8.0"
 )
 package sample.model
 
